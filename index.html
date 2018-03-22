@@ -11,33 +11,47 @@
 </head>
 <body>
 
-  <section class="contact pad-t-2 pad-b-2">
-    <div class="max-length">
-      <h1>Send us a sweet little note</h1>
 
+
+  <section class="contact pad-t-2 pad-b-2 island">
+    <div class="max-length">
+      <h1>Want to go to Mars?</h1>
+
+      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+      <h2><i>Personal details</i></h2>
       <form class="push-0" method="POST" action="https://formspree.io/lepa0120@algonquinlive.com"></form>
       <div class="push">
         <label for="name">Name</label>
         <input id="name" name="name" required>
       </div>
       <div class="push">
-        <label for="email">Your email</label>
+        <label for="age">Age</label>
+        <input id="age" name="age" required>
+      </div>
+      <div class="push">
+        <label for="email">Email</label>
         <input id="email" type="email" placeholder="me@me.com" name="email" required>
       </div>
       <div class="push">
-        <label for="subject">Subject</label>
+        <label for="subject">Physical fitness</label>
         <select id="subject" name="_subject">
-          <option>Get a quote!</option>
-          <option>General question</option>
-          <option>Just to talk</option>
+          <option>Super-human</option>
+          <option>Fit as a fiddle</option>
+          <option>Not terribly strong</option>
+          <option>A little couch-potato-y</option>
         </select>
       </div>
       <div class="push">
-        <label for="details">What's up?</label>
+        <label for="details">Address</label>
+        <textarea id="details" name="message" required></textarea>
+      </div>
+      <h2><i>Mission Statement</i></h2>
+      <div class="push">
+        <label for="details">Why do you want to go to Mars?</label>
         <textarea id="details" name="message" required></textarea>
       </div>
       <div class="btn btn--light mega">
-        <button type="submit">Send message</button>
+        <button type="submit center-text">Send message</button>
       </div>
 
     </div>
